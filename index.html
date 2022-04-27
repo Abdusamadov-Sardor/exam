@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./boostrapt/css/bootstrap.min.css">
+  <title>example-js</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title text-center">Pitsa buyurtma qilish</h1>
+
+    <div class="row">
+      <div class="col-8">
+        <form class="form" for="form" action="https://echo.htmlacademy.ru/" method="post" >
+
+          <h2 class="title fw-bold mt-3">Noni qanday bo'sin</h2>
+
+          <select class="form-select w-50" >
+            <option value="yupqa">yupqa</option>
+            <option value="qalin">qalin</option>
+            <option value="o'rta">o'rta</option>
+          </select>
+
+          <h2 class="title fw-bold mt-5">Kattaligi:</h2>
+          <div class="box">
+            <label class="low-box me-3">
+              <input  class="low" name="size" type="radio">
+              25 sm
+            </label>
+
+            <label class="middle-box me-3 mt-5">
+              <input  class="middle" name="size" type="radio">
+              30 sm
+            </label>
+            <label class="high-box">
+              <input class="high" name="size" type="radio">
+              35 sm
+            </label>
+          </div>
+
+
+          <h2 class="title mt-5 mb-4">Ustiga nima Solaylik</h2>
+          <div class="mb-5 group-label">
+
+            <div class="top col-6 list">
+              <label class="lab1 label-one mb-4  me-4" >
+                <input class="tomato" name="input" type="checkbox">
+                Pomidor
+              </label>
+
+              <label class="lab2 label-two me-4" >
+                <input class="meat" name="input" type="checkbox">
+                Kurka go'shti
+              </label>
+
+              <label class="lab3 label-three" >
+                <input class="zaytun" name="input" type="checkbox">
+               Zaytun
+              </label>
+            </div>
+
+            <div class="bottom mb-5 lists ">
+              <label class="lab4 label-four me-4" >
+                <input class="potato" name="input" type="checkbox">
+                Tuzlangan bodring
+              </label>
+
+              <label class="lab5 label-five me-4" >
+                <input class="qoziqorn" name="input" type="checkbox">
+                qo'ziqorin
+              </label>
+
+              <label class="lab6 label-six" >
+                <input class="qazi" name="input" type="checkbox">
+                Qazi
+              </label>
+            </div>
+          </div>
+
+          <h2 class="title">Qo'shimchalari</h2>
+          <label class="label1">
+            <input class="achchiq" type="radio" name="radio" >
+            Achchiq
+          </label>
+          <label class="label2">
+            <input class="sosiska" type="radio" name="radio" >
+            Sosiskali
+          </label>
+
+          <button class="form-button" id="form" type="submit">Yuborish</button>
+        </form>
+
+      </div>
+      <div class="col-4 ">
+        <h3 class="title h-25 d-flex flex-column">Noni:<span class="span "></span></h3>
+        <h3 class="title h-25 d-flex flex-column">Kattaligi:<span class="span1" ></span></h3>
+        <h3 class="title h-25 d-flex flex-column">Ustiga nima solaylik:<span class="span2"></span></h3>
+        <h3 class="title h-25 d-flex flex-column">Qo'shimchalari: <span class="span3"></span></h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./boostrapt/js/bootstrap.min.js">
+</body>
+</html>
